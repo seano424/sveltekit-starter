@@ -5,7 +5,12 @@
 </script>
 
 <Header />
-<Modal/>
+<Modal>
+  <h1 class="text-3xl uppercase text-white font-black z-50">Click Outside of Me to Get Out Of Here!</h1>
+  <div class="text-7xl" slot="zombie">
+    🧟
+  </div>
+</Modal>
 <main>
   <slot />
 </main>
